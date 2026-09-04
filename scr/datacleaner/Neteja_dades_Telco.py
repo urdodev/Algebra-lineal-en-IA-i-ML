@@ -80,6 +80,7 @@ for columna in Col_influencia_churn:
     group_column = Dades_brutes.groupby(columna)
     churn_grup = group_column["Churn"]
     percentatge_churn = churn_grup.apply(lambda x: (x == "Yes").mean())
+    
 # Després de revisar totes les columnes de tipus object, gender i PhoneService s'eliminaran perquè pràcticament no hi ha diferència entre les seves categories. Després m'he adonat que hi ha una categoria "No internet service" que és bastant rellevant, però es repeteix amb el mateix percentatge a moltes altres columnes; per no haver d'eliminar aquestes files, s'ha decidit fusionar aquesta categoria amb la categoria "No".
 
 Dades_brutes["MultipleLines"] = Dades_brutes["MultipleLines"].replace("No phone service", "No")
