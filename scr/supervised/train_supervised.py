@@ -1,6 +1,6 @@
 '''
 Script principal 1
-Modelo: LogisticRegression
+Modelos: LogisticRegression y DecisionTreeClassifier
 Metrics: ..
 Antes de empezar, hay que aclarar que el procedimiento de estos script, por lo menos, las primeras partes, seran similares o iguales entre ellas, por lo que los comentarios solo se pondran una vez en las partes repetidas, en las nuevas si que se explicara el funcionamiento.
 '''
