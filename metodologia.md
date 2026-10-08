@@ -20,7 +20,6 @@ E3 Telcosubmostrejat a 150, 500 i 2.000 files;
 
 E4 (extra) K-Means amb ARI, NMI i accuracy aparellada.
 
-**Mètriques**: accuracy, balanced accuracy, desviació típica, rang i IQR, Δ aparellada
-entre models, baseline Dummy.
+**Mètriques**: accuracy, balanced accuracy, desviació típica, rang i IQR.
 
 **Eines**: Python 3, pandas, scikit-learn, matplotlib.
