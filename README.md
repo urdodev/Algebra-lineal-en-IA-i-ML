@@ -13,13 +13,21 @@ Quant varia el resultat entre particions? Afecten l'escalat i la mida del datase
 ## Estructura del repo
 
 Data/ dades brutes (raw) i netes (processed) de Telco
+
 scr/datacleaner/ neteja de Telco
+
 scr/supervised/ experiment principal
+
 scr/unsupervised/ K-Means
+
 scr/test/ DummyClassifier
+
 outputs/ resultats (CSV) i gràfiques
+
 Part-teorica/ memòria del TR
+
 metodologia.md metodologia del treball
+
 Info-Dataset.md informació dels datasets
 
 ## Models
