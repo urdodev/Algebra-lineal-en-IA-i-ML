@@ -1,13 +1,12 @@
-**DataSet from Kaggle:** https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-
-# The data set includes information about:
-
-- Customers who left within the last month – the column is called Churn
-
-- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-
-- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-
-- Demographic info about customers – gender, age range, and if they have partners and dependents
-
-Es perfecto para mi trabajo ya que contiene datos basura, nulos, columnas innecesarias, etc.
+# Datasets utilitzats
+## Telco Customer Churn (Kaggle)
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+- 7.043 files originals; 7.032 després de netejar (11 files amb TotalCharges buit).
+- Variable a predir: Churn (0 = No, 1 = Yes), ≈ 26,6 % de Yes.
+- Conté dades brutes (nuls camuflats, columnes inútils), per això es neteja.
+## Iris (scikit-learn: load_iris)
+- 150 files, 4 variables numèriques, 3 classes equilibrades (50 cada una).
+TR · Parte práctica · Documento de rediseño del enfoque Pág. 10
+## Wine (scikit-learn: load_wine)
+- 178 files, 13 variables numèriques, 3 classes (59 / 71 / 48).
+- Variables en escales molt diferents: ideal per estudiar l'escalat.
