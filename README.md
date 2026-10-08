@@ -11,7 +11,7 @@ Repetint l'entrenament amb diferents particions de dades, quin model supervisat 
 Quant varia el resultat entre particions? Afecten l'escalat i la mida del dataset?
 
 ## Estructura del repo
-'''python
+
 Data/ dades brutes (raw) i netes (processed) de Telco
 
 scr/datacleaner/ neteja de Telco
@@ -29,7 +29,7 @@ Part-teorica/ memòria del TR
 metodologia.md metodologia del treball
 
 Info-Dataset.md informació dels datasets
-'''
+
 ## Models
 KNN: distància euclidiana entre vectors.
 
@@ -45,3 +45,6 @@ K-Means: distància al centroide.
 ## Mètriques
 Accuracy score(principal), balanced accuracy, desviació típica entre particions. 
 Extra: ARI, NMI i accuracy després d'aparellar clusters amb Kmeans.
+
+## Llenguatges Utilitzats
+Durant tot el projecte s'utilitzarà només Python, ja que és l'estàndard de la indústria.
