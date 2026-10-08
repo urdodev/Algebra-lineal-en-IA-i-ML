@@ -25,9 +25,12 @@ Info-Dataset.md informació dels datasets
 ## Models
 KNN: distància euclidiana entre vectors.
 
+
 Regressió logística: producte escalar w·x + b i funció sigmoide.
 
+
 Arbre de decisió: preguntes sobre una sola variable.
+                
 
 K-Means: distància al centroide.
 
