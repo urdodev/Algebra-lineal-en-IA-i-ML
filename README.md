@@ -1,4 +1,4 @@
-# TR – Àlgebra lineal en IA i ML (part pràctica)
+# TR – Àlgebra lineal en IA i ML 
 Part pràctica del Treball de Recerca de Catalunya.
 Autor: Rayan el Bakkali · Institut: INS Vinyes Velles
 
