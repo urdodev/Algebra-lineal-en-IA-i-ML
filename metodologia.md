@@ -16,7 +16,7 @@ E1 50 particions amb escalat;
 
 E2 sense escalat; 
 
-E3 Telcosubmostrejat a 150, 500 i 2.000 files;
+E3 Telcos ubmostrejat a 150, 500 i 2.000 files per poder comparar;
 
 E4 (extra) K-Means amb ARI, NMI i accuracy aparellada.
 
