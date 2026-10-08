@@ -1,23 +1,26 @@
+
 # Metodologia
 
-El dataset utilizado es Telco Customer Churn (Kaggle), limpiado previamente en la fase de limpieza (Neteja_dades_Telco.py).
+**Datasets**: Telco (net), Iris i Wine. Models: KNN (k=5), regressió logística
+(max_iter=1000) i arbre de decisió (random_state=42).
 
-La variable que se predecirá es Churn (0 = No, 1 = Yes).
+**Partició**: 70 % entrenament / 30 % test, estratificada, amb 50 llavors (0-49).
+Totes les llavors són compartides per tots els models i escalats.
 
-**Entrenamiento**
-Los datos se dividen en entrenamiento (70%) y  test (30%) con train_test_split.
+**Escalat**: MinMaxScaler dins d'un Pipeline (s'ajusta només amb entrenament) i
+versió sense escalar. Per Kmeans s'utlitzará StandardScaler.
 
-**Escaladores**
-Se aplican dos escaladores distintos, dependiendo  del modelo:
+**Experiments**: 
 
-MinMaxScaler para Regresión Logística y Árbol de Decisión.
-StandardScaler para PCA y K-Means.
+E1 50 particions amb escalat; 
 
+E2 sense escalat; 
 
-**Métricas de evaluación**
-Supervisados: accuracy score, matriz de confusión, curva ROC.
+E3 Telcosubmostrejat a 150, 500 i 2.000 files;
 
-No supervisados: silhouette score (calidad de separación de los clústers) y, despues, porcentaje de Churn dentro de cada clúster encontrado por K-Means.
+E4 (extra) K-Means amb ARI, NMI i accuracy aparellada.
 
-**Herramientas**
-Se usó Python V3, conjuntamente con las librerias Pandas para limpieza del dataset, Scikit-Learn para entrenamineto del modelo y evaluación del resultado, y matplotlib para visualizar resultados con graficas.
+**Mètriques**: accuracy, balanced accuracy, desviació típica, rang i IQR, Δ aparellada
+entre models, baseline Dummy.
+
+**Eines**: Python 3, pandas, scikit-learn, matplotlib.
