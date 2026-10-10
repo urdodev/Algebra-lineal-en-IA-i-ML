@@ -9,4 +9,6 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+# Copias de seguridad locales (no subir al repo)
+scr/legacy/
 # Mantenemos Data/, outputs/ y Part-teorica/ para el TR: no ignorar.
