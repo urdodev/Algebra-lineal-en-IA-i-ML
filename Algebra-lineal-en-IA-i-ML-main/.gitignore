@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Mantenemos Data/, outputs/ y Part-teorica/ para el TR: no ignorar.
