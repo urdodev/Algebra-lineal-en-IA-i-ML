@@ -1,0 +1,4 @@
+dataset,KNN,LogReg,Tree
+Telco,0.11,-0.12,-0.0
+Iris,-0.93,-4.84,0.13
+Wine,26.67,3.37,0.0
